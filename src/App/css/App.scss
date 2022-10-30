@@ -1,13 +1,7 @@
-@import "./helperrs/mixins";
-div {
-  @include name();
-  flex-direction: column;
+﻿.ss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
-  margin: {
-    top: 10px;
-  }
-  button {
-    font-size: inherit;
-    padding: 10px;
-  }
+  margin-top: 10px;
 }

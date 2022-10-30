@@ -1,9 +1,8 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,GAAG,CAAC;ECAF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EDAnB,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,IAAI;EAEb,UAAG,EAAE,IAAI;CAMZ;;AAXD,AAOE,GAPC,CAOD,MAAM,CAAC;EACL,SAAS,EAAE,OAAO;EAClB,OAAO,EAAE,IAAI;CACd",
+    "mappings": "AAAA,AAAA,GAAG,CAAC;EACF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CACjB",
     "sources": [
-        "App.scss",
-        "helperrs/_mixins.scss"
+        "App.scss"
     ],
     "names": [],
     "file": "App.css"

@@ -1,4 +1,4 @@
-﻿import { state } from "./interfaces";
+﻿import { state } from "../interfaces";
 
 export const INIT_STATE: state = {
   loading: false,

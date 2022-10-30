@@ -1,4 +1,4 @@
-﻿import { state, action } from "./interfaces";
+﻿import { state, action } from "../interfaces";
 
 export const postReducer = (state: state, action: action): state => {
   switch (action.type) {
