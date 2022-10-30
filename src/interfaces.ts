@@ -10,10 +10,7 @@ export interface action {
 
 export interface actions {
   type: string;
-  paylod: {
-    name: string;
-    value: string;
-  };
+  paylod: any;
 }
 export interface ss {
   title: string;
