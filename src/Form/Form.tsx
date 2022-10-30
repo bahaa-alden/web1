@@ -6,9 +6,19 @@ function Form() {
   return (
     <div>
       <form>
-        <input type="text" name="title" placeholder="Title" />
-        <input type="text" name="desc" placeholder="Desc" />
-        <input type="number" name="price" placeholder="Price" />
+        <input
+          type="text"
+          name="title"
+          value={state.title}
+          placeholder="Title"
+        />
+        <input type="text" name="desc" placeholder="Desc" value={state.desc} />
+        <input
+          type="number"
+          name="price"
+          placeholder="Price"
+          value={state.price}
+        />
         <p>Category:</p>
         <select name="category" id="category">
           <option value="sneakers">Sneakers</option>

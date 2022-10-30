@@ -48,4 +48,8 @@ form .quantity {
   display: flex;
   gap: 10px;
 }
+
+form input {
+  padding: 5px 10px;
+}
 /*# sourceMappingURL=Form.module.css.map */

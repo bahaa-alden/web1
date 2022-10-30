@@ -15,3 +15,16 @@ export interface actions {
     value: string;
   };
 }
+export interface ss {
+  title: string;
+  desc: string;
+  price: number;
+  category: string;
+  tags: string[];
+  images: {
+    sm: string;
+    md: string;
+    lg: string;
+  };
+  quantity: number;
+}
